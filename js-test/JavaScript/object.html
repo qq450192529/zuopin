@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css"  />
+    <meta charset="UTF-8">
+    <title>js对象 object</title>
+    <style type="text/css">
+        p {
+            border: medium double blue;
+            width: 66%;
+        }
+        /*设置双线后，再设置像素无效，此时需要修改为solid实线才有效果*/
+    </style>
+</head>
+
+<body>
+    <p>
+        objectTest = new Object();
+        <br> objectTest.txt = "颜色";
+        <br> objectTest.color = "blue";
+        <br> document.write(objectTest.txt+"是"+objectTest.color);
+    </p>
+    <script>
+        objectTest = new Object();
+        objectTest.txt = "颜色";
+        objectTest.color = "blue";
+        // objectTest.write();
+        document.write(objectTest.txt + "是" + objectTest.color);
+    </script>
+
+    <p>
+        var txt = "hello world";
+        <br> var length = txt.length;
+        <br> document.write(length);
+    </p>
+    <script>
+        var txt = "hello world";
+        var length = txt.length;
+        document.write(length);
+    </script>
+
+    <p>
+        var message = "helloword!";<br>
+        var x = message.toUpperCase();<br>
+        document.write(x);<br>
+        此例子将文本转换为大写。
+    </p>
+    <script>
+        var message = "helloword!";
+        var x = message.toUpperCase();
+        document.write(x);
+    </script>
+
+</body>
+
+</html>

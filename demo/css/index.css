@@ -1,0 +1,93 @@
+.head {
+    background: #4a9ff2;
+    width: 1280px;
+    height: 56px;
+    margin: 0 auto;
+}
+.head #logo{
+    float: left;
+    padding-left: 40px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 45px;
+    height: 30px;
+
+}
+.head #images{
+    width: 45px;
+    height: 30px;
+}
+.head #wenzi{
+    float: left;
+    padding-left:10px;
+    padding-top: 22px;
+    padding-bottom: 16px;
+    width: 128px;
+    font-family:FZLTXHK--GBK1-0;
+    font-size:16px;
+    color:#ffffff;
+    line-height:18px;
+}
+.head #shouye{
+    float: left;
+    padding-left:60px;
+    padding-top: 19px;
+    padding-bottom:19px;
+    font-family:FZLTXHK--GBK1-0;
+    font-size:14px;
+    color:#ffffff;
+    line-height:18px;
+    width: 28px;
+}
+.head #daohang{
+    float: left;
+    width: 84px;
+    height: 56px;
+    margin-left:40px;
+    background:#77b7f5;
+
+
+
+}
+.head .p{
+    position:absolute;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    margin-left: 20px;
+    font-family:FZLTXHK--GBK1-0;
+    font-size:14px;
+    color:#ffffff;
+    line-height:18px;
+    text-align: center;
+}
+.head .images2{
+    position:absolute;
+    padding-top: 26px;
+    margin-left: 54px;
+    width: 10px;
+    height: 5px;
+    padding-left: 1px;
+}
+.head #yuan{
+    position:absolute;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    margin-right: 90px;
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-left: 1165px;
+    background:#ffffff;
+    border-radius:100%;
+    /*background-color: red;*/
+}
+.head #yuanimg{
+    width:13px;
+    height:14px;
+    padding-top:5px;
+    padding-left:6px;
+}
+.head #denglu{
+    float: right;
+    margin-right: 100px;
+}
