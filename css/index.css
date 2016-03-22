@@ -55,11 +55,9 @@
 #top-nav .site-links .weixin {
     position: relative;
     padding-left: 20px;
-    width: 105px;
-    height: 28px;
     float: left;
     top: 13px;
-    height: 18px;
+    height: 48px;
     width: 100px;
     font-size: 14px;
     color: black;
@@ -68,11 +66,9 @@
 #top-nav .site-links .zixun {
     position: relative;
     padding-left: 20px;
-    width: 122px;
-    height: 48px;
     float: left;
     top: 13px;
-    height: 18px;
+    height: 48px;
     width: 100px;
     font-size: 14px;
     color: black;
