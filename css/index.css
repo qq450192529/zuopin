@@ -1,0 +1,183 @@
+#xiangzi {
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color: #fff;
+    font-family: "Microsoft YaHei";
+}
+
+#nav {
+    width: 100%;
+    height: 128px;
+    margin: 0 auto;
+    border-bottom: 1px #CCCCCC solid;
+}
+
+#top-nav {
+    width: 1200px;
+    height: 49px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: black;
+    border-bottom: 1px #E4E4E4 solid;
+}
+
+#top-nav .site-links {
+    width: 500px;
+    height: 49px;
+    float: left;
+}
+
+#top-nav .site-links a:hover {
+    text-decoration: none;
+    font-size: 14px;
+    color: red;
+}
+
+#top-nav .site-links i {
+    width: 1px;
+    height: 14px;
+    float: left;
+    border-right: 1px #E4E4E4 solid;
+    margin-top: 17px;
+}
+
+#top-nav .site-links .phone {
+    position: relative;
+    width: 200px;
+    height: 48px;
+    float: left;
+    top: 13px;
+    font-size: 14px;
+    color: black;
+}
+
+#top-nav .site-links .weixin {
+    position: relative;
+    padding-left: 20px;
+    width: 105px;
+    height: 28px;
+    float: left;
+    top: 13px;
+    height: 18px;
+    width: 100px;
+    font-size: 14px;
+    color: black;
+}
+
+#top-nav .site-links .zixun {
+    position: relative;
+    padding-left: 20px;
+    width: 122px;
+    height: 48px;
+    float: left;
+    top: 13px;
+    height: 18px;
+    width: 100px;
+    font-size: 14px;
+    color: black;
+}
+
+#top-nav .icon {
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+    margin-right: 10px;
+    float: left;
+}
+
+#top-nav .users-links a {
+    background-color: #f2f2f2;
+    display: block;
+    float: right;
+    height: 28px;
+    width: 78px;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #6c6c6c;
+    text-decoration: none;
+}
+
+#top-nav .users-links a:hover {
+    background-color: #E4E4E4;
+}
+
+#bottom-nav {
+    width: 1200px;
+    height: 79px;
+    margin: 0 auto;
+}
+
+#bottom-nav .logo {
+    width: 200px;
+    float: left;
+    height: 50px;
+    margin-top: 15px;
+    border-right: 1px #E4E4E4 solid;
+}
+
+#bottom-nav .logo2 {
+    width: 190px;
+    height: 50px;
+    float: left;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+#bottom-nav .daohang {
+    float: right;
+    margin-right: 10px;
+}
+
+#bottom-nav .daohang a:hover {
+    text-decoration: none;
+    font-size: 15px;
+    border-bottom: 5px #FE5B56 solid;
+}
+
+#bottom-nav .daohang a {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 44px;
+    margin-top: 30px;
+    line-height: 15px;
+    float: left;
+    font-size: 15px;
+    color: black;
+}
+
+#bottom-nav .daohang i {
+    width: 1px;
+    height: 25px;
+    float: left;
+    margin-top: 25px;
+    border-right: 1px #E4E4E4 solid;
+}
+
+#lunbo {
+    height: 500px;;
+}
+#bg {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#lunbo .up{
+    position: absolute;
+    top:280px;
+    left: 100px;
+    opacity:0.5;   
+}
+#lunbo .down{
+    position: absolute;
+    top:280px;
+    right: 100px;
+    opacity:0.5;   
+}

@@ -1,99 +1,68 @@
 <!DOCTYPE html>
-<html>
-    <head>
-    <link rel="stylesheet" type="text/css"  />
-    <!— 新 Bootstrap 核心 CSS 文件 —>
-    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!— 可选的Bootstrap主题文件（一般不用引入） —>
-    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <meta charset="utf-8">
-    <title>欢迎光临本站</title>
-    </head>
-        <body>
-            <nav class="navbar navbar-default">
-              <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="./index.php">首页</a>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>纯JS仿写掌门1对1</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/initalize.css">
+    <script src="./js/index.js"></script>
+
+</head>
+
+<body>
+    <div id="xiangzi">
+        <div id="nav">
+            <div id="top-nav">
+                <div class="site-links">
+                    <!--site-links 站内链接-->
+                    <a href="tel:18135121441" class="phone">
+                        <img src="./images/phone.png" class="icon"> 客服热线&nbsp;:&nbsp;10108868
+                    </a>
+                    <i></i>
+                    <a href="tel:18135121441" class="weixin">
+                        <img src="./images/weixin.png" class="icon"> 微信
+                    </a>
+                    <i></i>
+                    <a href="tel:18135121441" class="zixun">
+                        <img src="./images/zixun.png" class="icon"> 在线咨询
+                    </a>
                 </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav">
-                    <li class="active"><a href="./demo/index.html">demo <span class="sr-only">(current)</span></a></li>
-                    <li><a href="./qietu/index.html">切图</a></li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">jQuery<span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="./js-test/jQuery/demo1.html">demo1</a></li>
-                        <li><a href="./js-test/jQuery/demo2.html">demo2</a></li>
-                        <li><a href="./js-test/jQuery/demo3.html">demo3</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ajax<span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="./js-test/AJAX/demo1.html">demo1</a></li>
-                        <li><a href="./js-test/AJAX/demo2.html">demo2</a></li>
-                        <li><a href="./js-test/AJAX/demo3.html">demo2</a></li>
-                      </ul>
-                    </li>
-                    <ul class="nav navbar-nav navbar-right">
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">JS <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="./js-test/JavaScript/err.html">err.html</a></li>
-                          <li><a href="./js-test/JavaScript/function.html">function.html</a></li>
-                          <li><a href="./js-test/JavaScript/index.html">index.html</a></li>
-                          <li><a href="./js-test/JavaScript/JsDomHtml.html">JsDomHtml.html</a></li>
-                          <li><a href="./js-test/JavaScript/object.html">object.html</a></li>
-                          <li><a href="./js-test/JavaScript/submitpage.htm">submitpage.htm</a></li>
-                          <li><a href="./js-test/JavaScript/tiaojian.html">tiaojian.html</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </ul>
-
-                  <form class="navbar-form navbar-left" role="search">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="请输入">
-                    </div>
-                    <button type="submit" class="btn btn-default">查询</button>
-                  </form>
-
-                </div><!-- /.navbar-collapse -->
-              </div><!-- /.container-fluid -->
-            </nav>
-            <div class="jumbotron">
-                <p>
-                有的女人就像Windows虽然很优秀，但是安全隐患太大。
-                <br>有的女人就像UNIX她条件很好，然而不是谁都能玩的起。
-                <br>有的女人就像C#长的很漂亮，但是家务活不行。
-                <br>有的女人就像C++,她会默默的为你做很多的事情。
-                <br>有的女人就像JAVA,只需一点付出她就会为你到处服务。
-                <br>有的女人就像JAVAscript，虽然对她处处小心但最终还是没有结果。
-                <br>有的女人就像SQL，她会为你的发展带来莫大的帮助。
-                <br>有的女人就像ASP，满街到处都是，成熟漂亮和稳重的只有极少数。
-                <br>有的女人就像PHP，饱经沧桑（开源），无论经验和内涵都非常的丰富。
-                <br>有的女人就像dotNet，没有点积蓄还真养不起！
-                <br>有的女人就像Ajax，使用起来感觉就是爽。
-                <br>有的女人就像JSP,看起来很高贵,可是你玩不起!
-                <br>有的女人就像HTML,虽然不高贵,也不好看,但是她是助长美好爱情的根基
-                <br>有的女人就像DOM，长的很有层级，虽不是长期的助手，但在你有危机的时候，他会挺身而出
-                <br>有的女人就像DOS,虽然她不美,也不实用,但是她必定是你的初恋女友!
-                <br>有的女人就像汇编虽然很麻烦，但是有的时候还得求它。
-                </p>
-                <p><a class="btn btn-primary btn-lg" href="https://item.taobao.com/item.htm?spm=a230r.1.14.22.tiO3kP&id=522179521393&ns=1&abbucket=16#detail" role="button">首先你要有一个女朋友</a></p>
+                <div class="users-links">
+                    <a href="#"><b>登录</b></a>
+                </div>
             </div>
-        </body>
-        <!— jQuery文件。务必在bootstrap.min.js 之前引入 —>
-        <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-        <!— 最新的 Bootstrap 核心 JavaScript 文件 —>
-        <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <div id="bottom-nav">
+                <a href="./index.html">
+                    <div class="logo">
+                        <img src="./images/logo.png" alt="">
+                    </div>
+                </a>
+                <div class="logo2">
+                    <img src="./images/logo2.png" alt="">
+                </div>
+                <div class="daohang">
+                    <a href="#">首页</a><i></i>
+                    <a href="#">掌门优势</a><i></i>
+                    <a href="#">掌门名师</a><i></i>
+                    <a href="#">掌门成就</a><i></i>
+                    <a href="#">公开课</a><i></i>
+                    <a href="#">客户端</a><i></i>
+                    <a href="#">题库</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="lunbo">
+            <img id="bg" src="./images/lunbo1.png">
+            <img  class="up" onclick="up()" id="upimg"src="./images/upup.png" >
+            <img class="down" onclick='down()' id="downimg"src="./images/downdown.png">
+        </div>
+
+
+
+
+    </div>
+</body>
+
 </html>
