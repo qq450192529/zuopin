@@ -122,18 +122,18 @@
     margin-top: 20px;
 }
 
-#bottom-nav .daohang {
+#bottom-nav #daohang {
     float: right;
     margin-right: 10px;
 }
 
-#bottom-nav .daohang a:hover {
+#bottom-nav #daohang a:hover {
     text-decoration: none;
     font-size: 15px;
     border-bottom: 5px #FE5B56 solid;
 }
 
-#bottom-nav .daohang a {
+#bottom-nav #daohang a {
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
@@ -145,7 +145,7 @@
     color: black;
 }
 
-#bottom-nav .daohang i {
+#bottom-nav #daohang i {
     width: 1px;
     height: 25px;
     float: left;
@@ -176,4 +176,106 @@
     top:320px;
     right: 100px;
     opacity:0.5;   
+}
+#tankuang{
+    width: 606px;
+    height: 426px;
+    background-color: #fff;
+    z-index: -1;
+    position:fixed;
+    top:15%;
+    bottom: 35%;
+    left: 28%;
+    right: 20%;
+}
+#tankuang .header{
+    width: 576px;
+    height: 52px;
+    line-height: 52px;
+    background-color: #FF3E3E;
+    padding-left:30px;
+    color:#fff;
+    font-size: 18px;
+}
+#tankuang .header img{
+    width: 30px;
+    height: 25px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 12px;
+    
+}
+#tankuang .content{
+    width: 606px;
+    height: 360px;
+    background-color: #fff;
+}
+#tankuang .content a{
+    width: 100px;
+    height: 18px;
+}
+#tankuang .content a:hover{
+    background-color: #FF3E3E;
+    color: #fff;
+}
+#tankuang .footer{
+    width: 590px;
+    border-bottom: 6px #FF3E3E solid;
+}
+#tankuang .renwu{
+    
+}
+
+
+#form .bgform{
+    position:fixed;
+    bottom:0px;
+    width: 100%;
+    height: 50px;
+    opacity: 0.6;
+    /*filter:alpha(Opacity=10);-moz-opacity:0.1;opacity: 0.1;*/
+    background:#000;
+}
+#form .form{
+    width: 1200px;
+    height: 50px;
+    position:fixed;
+    right: 50px;
+    left: 50px;
+    bottom:0px;
+}
+#form img{
+    float: left;
+}
+
+#form .button {
+    margin-top: 10px;
+    float: left;
+    background-color: #E54C49;
+    display: block;
+    border: none;
+    letter-spacing: normal;
+    height: 28px;
+    width: 100px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff; 
+    text-decoration: none;
+}
+
+#form .img{
+    float:right;
+}
+#form input{
+    padding-left: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width:230px;
+    float: left;
+    margin-top: 8px;
+    height: 28px;
+    font-size: 12px;
+    color:#6c6c6c; 
+    text-decoration: none;
 }

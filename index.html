@@ -6,7 +6,9 @@
     <title>纯JS仿写掌门1对1</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/initalize.css">
+    <script src="./js/jquery-1.9.1.min.js"></script>
     <script src="./js/index.js"></script>
+    
 
 </head>
 
@@ -41,14 +43,14 @@
                 <div class="logo2">
                     <img src="./images/logo2.png" alt="">
                 </div>
-                <div class="daohang">
-                    <a href="#">首页</a><i></i>
-                    <a href="#">掌门优势</a><i></i>
-                    <a href="#">掌门名师</a><i></i>
-                    <a href="#">掌门成就</a><i></i>
-                    <a href="#">公开课</a><i></i>
-                    <a href="#">客户端</a><i></i>
-                    <a href="#">题库</a>
+                <div id="daohang" >
+                    <a href="#" class="daohang">首页</a><i></i>
+                    <a href="#" class="daohang">掌门优势</a><i></i>
+                    <a href="#" class="daohang">掌门名师</a><i></i>
+                    <a href="#" class="daohang">掌门成就</a><i></i>
+                    <a href="#" class="daohang">公开课</a><i></i>
+                    <a href="#" class="daohang">客户端</a><i></i>
+                    <a href="#" class="daohang">题库</a>
                 </div>
             </div>
         </div>
@@ -58,10 +60,53 @@
             <img  class="up" onclick="up()" id="upimg"src="./images/upup.png" >
             <img class="down" onclick='down()' id="downimg"src="./images/downdown.png">
         </div>
+        <div id="tankuang">
+            <div class="header">
+                掌门1对1官网欢迎您！
+                <a href="#">
+                    <img id="exittankuang"src="./images/cha.png" onclick="exit()">
+                </a>
+            </div>
+            <div class="content">
+                <h2>热门课程咨询</h2>
+                <a href="">官网不往出弹了</a>
+                <a href="">官网不往出弹了</a>
+                <a href="">官网不往出弹了</a>
+                <a href="">官网不往出弹了</a>
+                <a href="">官网不往出弹了</a>
+                <a href="">官网不往出弹了</a>
+                <a href="">官网不往出弹了</a>
+                <a href="">官网不往出弹了</a>
+                   
+            </div>
+            <div class="footer"
+            ></div>
+            <div class="renwu">
+                
+            </div>
+        </div>
 
 
 
-
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div id="form">
+            <div class="bgform"></div>
+          <div class="form">
+              <form action="" >
+              <img src="./images/shiting_ae74e2f.png" alt="">
+              <input type="text" value="学生姓名">
+              <input type="text" value="请输入您的手机号">
+              <input type="text" value="推荐人">
+              <div class="button">立即预约</div>
+              <img class="img" src="./images/call_78fbc19.png" alt="">                   
+              </form>
+          </div>
     </div>
 </body>
 
