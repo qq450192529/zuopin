@@ -73,7 +73,7 @@ window.onload = function() {
 5秒后显示div 
 */
 setTimeout(function ShowLayer() {
-    document.getElementById("tankuang").style.zIndex = 1;
+    document.getElementById("tankuang").style.zIndex = 100;
     document.getElementById("tankuang").style.visibility = "visible";
     
 }, 5000);
