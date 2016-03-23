@@ -6,6 +6,9 @@
     font-family: "Microsoft YaHei";
 }
 
+
+/*以下是头部的所有css*/
+
 #nav {
     width: 100%;
     height: 128px;
@@ -153,9 +156,14 @@
     border-right: 1px #E4E4E4 solid;
 }
 
+
+/*以下是轮播图的css*/
+
 #lunbo {
-    height: 500px;;
+    height: 500px;
+    ;
 }
+
 #bg {
     position: relative;
     overflow: hidden;
@@ -165,86 +173,293 @@
     background-position: center center;
 }
 
-#lunbo .up{
+#lunbo .up {
     position: absolute;
-    top:320px;
+    top: 320px;
     left: 100px;
-    opacity:0.5;   
+    opacity: 0.5;
 }
-#lunbo .down{
+
+#lunbo .down {
     position: absolute;
-    top:320px;
+    top: 320px;
     right: 100px;
-    opacity:0.5;   
+    opacity: 0.5;
 }
-#tankuang{
+
+
+/*以下为轮播图下方四个方块以及间隔的CSS*/
+
+#special .scroll-container {
+    width: 1200px;
+    height: 220px;
+    margin: 0 auto;
+    border-bottom: 10px #EFEFEF solid;
+}
+
+#special .scroll-container a {
+    width: 256px;
+    height: 160px;
+    border: 8px #fff solid;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+}
+
+#special .hoverdiv {
+    width: 293px;
+    height: 205px;
+    background-image: url(../images/special-shadow_8926c22.png);
+    float: left;
+}
+
+#special .scroll-container div:hover {
+    margin-top: -10px;
+    float: left;
+}
+
+
+/*以下为四个老师的css*/
+
+.teachers {
+    width: 1200px;
+    height: 468px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.teachers .teachers-jieshao {
+    float: left;
+}
+
+.teachers .teachers-jieshao #moren {
+    padding-left: 10px;
+    width: 435px;
+    float: left;
+    font-size: 18px;
+    line-height: 40px;
+}
+.teachers .teachers-jieshao #moren a{
+color:red;
+text-decoration: none;
+}
+.teachers .teachers-jieshao #moren a:hover{
+color:red;
+text-decoration: none;
+}
+.teachers .teachers-jieshao #moren  span{
+    width: 700px;
+    margin-bottom: -30px;
+    font-size: 34px;
+    color: #484848;
+    line-height: 39px;
+}
+.teachers .teachers-jieshao  #p1 {
+    border: 1px #CFCFCF solid;
+    position: relative;
+    width:48px;
+    height: 40px;
+    padding:15px;
+    padding-left: 20px;
+    padding-bottom: 23px;
+    float: left;
+    line-height: 25px;
+    
+}
+.teachers .teachers-jieshao  #p1 b{
+    color: black;
+    font-size: 20px;
+    line-height: 20px;
+}
+.teachers .teachers-jieshao  #p2 {
+    position: relative;
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    float: left;
+    
+}
+.teachers .teachers-jieshao  #p2 b{
+    width: 10px;
+    color: #CFCFCF;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.teachers .teachers-jieshao  #p3 {
+    border: 1px #CFCFCF solid;
+    position: relative;
+    width:80px;
+    height: 40px;
+    padding:15px;
+    padding-left: 20px;
+    padding-bottom: 23px;
+    float: left;
+    line-height: 25px;    
+}
+
+
+.teachers .teachers-jieshao  #p3 b{
+    color: black;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+
+.teachers .renwu {
+    width: 700px;
+    height: 468px;
+    float: right;
+}
+
+.teachers .renwu #fangyibo {
+    z-index: 1;
+    width: 182px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.teachers #liyanqiu {
+    z-index: 4;
+    width: 167px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.teachers #yangfan {
+    z-index: 3;
+    width: 165px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.teachers #heqifeng {
+    z-index: 2;
+    width: 90px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+
+/*pad页面*/
+
+#ipad {
+    width: 100%;
+    height: 730px;
+    background-image: url(../images/pad.jpg);
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#ipad .ipad-text {
+    padding-top: 90px;
+    margin-left: 180px;
+    width: 340px;
+    height: 367px;
+}
+
+#ipad .ipad-text #header {
+    font-size: 40px;
+    color: #484848;
+}
+
+#ipad .ipad-text #header b {
+    color: #FB4748;
+}
+
+#ipad .ipad-text #text {
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+/*以下为弹出框的CSS*/
+
+#tankuang {
     width: 606px;
     height: 426px;
     background-color: #fff;
     z-index: -1;
-    position:fixed;
-    top:15%;
+    position: fixed;
+    top: 15%;
     bottom: 35%;
     left: 28%;
     right: 20%;
+    visibility: hidden;
 }
-#tankuang .header{
+
+#tankuang .header {
     width: 576px;
     height: 52px;
     line-height: 52px;
     background-color: #FF3E3E;
-    padding-left:30px;
-    color:#fff;
+    padding-left: 30px;
+    color: #fff;
     font-size: 18px;
 }
-#tankuang .header img{
+
+#tankuang .header img {
     width: 30px;
     height: 25px;
     float: right;
     margin-right: 20px;
     margin-top: 12px;
-    
 }
-#tankuang .content{
+
+#tankuang .content {
     width: 606px;
     height: 360px;
     background-color: #fff;
 }
-#tankuang .content a{
+
+#tankuang .content a {
     width: 100px;
     height: 18px;
 }
-#tankuang .content a:hover{
+
+#tankuang .content a:hover {
     background-color: #FF3E3E;
     color: #fff;
 }
-#tankuang .footer{
+
+#tankuang .footer {
     width: 590px;
     border-bottom: 6px #FF3E3E solid;
 }
-#tankuang .renwu{
-    
-}
+
+#tankuang .renwu {}
 
 
-#form .bgform{
-    position:fixed;
-    bottom:0px;
+/*以下为下方紧贴的填表单的CSS*/
+
+#form .bgform {
+    position: fixed;
+    bottom: 0px;
     width: 100%;
     height: 50px;
     opacity: 0.6;
     /*filter:alpha(Opacity=10);-moz-opacity:0.1;opacity: 0.1;*/
-    background:#000;
+    background: #000;
 }
-#form .form{
+
+#form .form {
     width: 1200px;
     height: 50px;
-    position:fixed;
+    position: fixed;
     right: 50px;
     left: 50px;
-    bottom:0px;
+    bottom: 0px;
 }
-#form img{
+
+#form img {
     float: left;
 }
 
@@ -260,22 +475,23 @@
     text-align: center;
     line-height: 28px;
     font-size: 14px;
-    color: #fff; 
+    color: #fff;
     text-decoration: none;
 }
 
-#form .img{
-    float:right;
+#form .img {
+    float: right;
 }
-#form input{
+
+#form input {
     padding-left: 5px;
     margin-left: 10px;
     margin-right: 10px;
-    width:230px;
+    width: 230px;
     float: left;
     margin-top: 8px;
     height: 28px;
     font-size: 12px;
-    color:#6c6c6c; 
+    color: #6c6c6c;
     text-decoration: none;
 }

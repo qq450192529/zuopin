@@ -17,7 +17,7 @@ setInterval(function() {
     if (img == number) {
         img = 0;
     }
-}, 150000);
+}, 1500);
 
 function up() {
     if (value >= 2 && value <= number) {
@@ -74,6 +74,8 @@ window.onload = function() {
 */
 setTimeout(function ShowLayer() {
     document.getElementById("tankuang").style.zIndex = 1;
+    document.getElementById("tankuang").style.visibility = "visible";
+    
 }, 5000);
 /*
 以下代码用来关闭弹框
