@@ -134,6 +134,7 @@
     text-decoration: none;
     font-size: 15px;
     border-bottom: 5px #FE5B56 solid;
+    transition: border  0.2s;
 }
 
 #bottom-nav #daohang a {
@@ -216,13 +217,14 @@
 #special .scroll-container div:hover {
     margin-top: -10px;
     float: left;
+    transition: 0.3s;
 }
 
 
 /*以下为四个老师的css*/
 
 .teachers {
-    width: 1200px;
+    width: 1350px;
     height: 468px;
     margin: 0 auto;
     margin-top: 130px;
@@ -230,6 +232,7 @@
 
 .teachers .teachers-jieshao {
     float: left;
+    margin-left: 60px;
 }
 
 .teachers .teachers-jieshao #moren {
@@ -308,41 +311,37 @@ text-decoration: none;
 
 
 .teachers .renwu {
-    width: 700px;
+    width: 770px;
     height: 468px;
     float: right;
 }
 
-.teachers .renwu #fangyibo {
+.teachers  #fangyiboimg {
+    position: relative;
+    display: block;
     z-index: 1;
-    width: 182px;
-    height: 100px;
-    float: left;
-    position: relative;
+    float: left;  
 }
-
-.teachers #liyanqiu {
+.teachers #liyanqiuimg {
+    position: relative;
+    display: block;
     z-index: 4;
-    width: 167px;
-    height: 100px;
-    float: left;
-    position: relative;
+    float: left; 
+    margin-left: -68px;
 }
 
-.teachers #yangfan {
+.teachers #yangfanimg {
+    position: relative;
     z-index: 3;
-    width: 165px;
-    height: 100px;
     float: left;
-    position: relative;
+    margin-left: -60px;
 }
 
-.teachers #heqifeng {
-    z-index: 2;
-    width: 90px;
-    height: 100px;
-    float: left;
+.teachers #heqifengimg {
     position: relative;
+    z-index: 2;
+    float: right;
+    margin-left:-150px;
 }
 
 
@@ -403,7 +402,8 @@ text-decoration: none;
     background-color: #FF3E3E;
     padding-left: 30px;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
 }
 
 #tankuang .header img {
@@ -415,19 +415,35 @@ text-decoration: none;
 }
 
 #tankuang .content {
-    width: 606px;
-    height: 360px;
+    margin-top:30px;
+    margin-left: 50px;
+    width: 556px;
+    height: 338px;
     background-color: #fff;
+    color: #584F4F;
+    font-size: 20px; 
 }
-
+#tankuang .content h2{
+    margin-bottom:  20px;
+}
+#tankuang li{
+    
+}
 #tankuang .content a {
     width: 100px;
     height: 18px;
+    color: #584F4F;
+    font-size: 16px;
+    
 }
 
 #tankuang .content a:hover {
     background-color: #FF3E3E;
     color: #fff;
+    font-size: 16px;
+    width: 150px;
+    line-height:20px;
+    /*transition: hover  0.5s; */
 }
 
 #tankuang .footer {

@@ -17,7 +17,7 @@ setInterval(function() {
     if (img == number) {
         img = 0;
     }
-}, 1500);
+}, 2000);
 
 function up() {
     if (value >= 2 && value <= number) {
@@ -54,6 +54,47 @@ window.onload = function() {
     downImg.onmouseout = function() {
         document.getElementById("downimg").src = "./images/downdown.png";
     }
+    
+    var fangYi = document.getElementById("fangyiboimg");
+    var liYan  = document.getElementById("liyanqiuimg");
+    var yangFan = document.getElementById("yangfanimg");
+    var heQi  = document.getElementById("heqifengimg");
+    function imgmouseout(){
+        fangYi.style.zIndex  = 1;
+        liYan.style.zIndex   = 4;
+        yangFan.style.zIndex = 3;
+        heQi.style.zIndex    = 2;  
+    }
+    /*fangyibo的鼠标事件*/
+    fangYi.onmouseover = function() {
+        fangYi.style.zIndex  = 10;   
+    }
+    fangYi.onmouseout = function() {
+        imgmouseout();    
+    }
+    /*liYan的鼠标事件 */
+    liYan.onmouseover = function() {
+        liYan.style.zIndex   = 10;
+    }       
+    liYan.onmouseout = function() {
+        imgmouseout();     
+    }    
+    /*yangFan的鼠标事件*/
+    yangFan.onmouseover = function() {
+        yangFan.style.zIndex = 10;   
+    }
+    yangFan.onmouseout = function() {
+        imgmouseout();    
+    }
+    /*heQi的鼠标事件*/
+    heQi.onmouseover = function() {
+        heQi.style.zIndex    = 10;    
+    }
+    heQi.onmouseout = function() {
+        imgmouseout();   
+    }
+                
+
 
     // var daoHang = document.getElementById("daohang");
     // daoHang.onmouseover = function(){
@@ -75,7 +116,6 @@ window.onload = function() {
 setTimeout(function ShowLayer() {
     document.getElementById("tankuang").style.zIndex = 100;
     document.getElementById("tankuang").style.visibility = "visible";
-    
 }, 5000);
 /*
 以下代码用来关闭弹框
@@ -84,7 +124,10 @@ function exit() {
     document.getElementById("tankuang").style.visibility = "hidden";
 }
 
-
+function fang() {    
+    console.log ("11");
+    document.getElementById("fangyibo").style.zIndex = 100;
+}
 
 // $("daohang").hover(
 //   function () {
