@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>小强作品，仿写掌门1对1</title>
+    <title>小强作品</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/initalize.css">
     <script src="./js/jquery-1.9.1.min.js"></script>
@@ -22,8 +22,9 @@
                         <img src="./images/phone.png" class="icon"> 客服热线&nbsp;:&nbsp;10108868
                     </a>
                     <i></i>
-                    <a href="tel:18135121441" class="weixin">
+                    <a href="tel:18135121441" id="weixin">
                         <img src="./images/weixin.png" class="icon"> 微信
+                        <div id="logoweixin" ><img src="./images/logo-weixin.jpg" alt=""></div>
                     </a>
                     <i></i>
                     <a href="tel:18135121441" class="zixun">
@@ -56,7 +57,7 @@
         </div>
 
         <div id="lunbo">
-            <img id="bg" src="./images/lunbo1.png">
+            <img id="bg"  src="./images/lunbo1.png">
             <img class="up" onclick="up()" id="upimg" src="./images/upup.png">
             <img class="down" onclick='down()' id="downimg" src="./images/downdown.png">
         </div>
@@ -115,7 +116,7 @@
         <div id="ipad" >
             <div class="ipad-text">
                 <div id="header">
-                    比面对面拥有<br><b>更轻松</b>的学习体验
+                    比面对面拥有<br><span>更轻松</span>的学习体验
                 </div>
                 <div id="text">
                     无论是电脑还是平板PAD,一键登录即可上课
@@ -136,21 +137,21 @@
             <div class="content">
                 <h2>热门课程咨询</h2>
                 <div style="width:200px;height:150px;float:left;margin-top:20px;">
-                    <li><a href="#">官网不往出弹了</a></li>
-                    <li><a href="#">官网不往出弹了</a></li>
-                    <li><a href="#">官网不往出弹了</a></li>
-                    <li><a href="#">官网不往出弹了</a></li>
+                    <li><a href="#">热门课程咨询</a></li>
+                    <li><a href="#">热门课程咨询</a></li>
+                    <li><a href="#">热门课程咨询</a></li>
+                    <li><a href="#">热门课程咨询</a></li>
                 </div>
                 <div style="<width:200></width:200>px;height:150px;float:left;margin-top:20px;">
-                    <li><a href="#">官网不往出弹了</a></li>
-                    <li><a href="#">官网不往出弹了</a></li>
-                    <li><a href="#">官网不往出弹了</a></li>
-                    <li><a href="#">官网不往出弹了</a></li>    
+                    <li><a href="#">热门课程咨询</a></li>
+                    <li><a href="#">热门课程咨询</a></li>
+                    <li><a href="#">热门课程咨询</a></li>
+                    <li><a href="#">热门课程咨询</a></li>    
                 </div>
                 <div style="float:left">
                     <h2>掌握学习法，10天提高50分</h2>   
                 <div>
-                    <span>立即咨询</span>
+                    <a href="#">立即咨询</a>
                 </div>    
                 </div>
                                               
@@ -172,9 +173,9 @@
           <div class="form">
               <form action=" " >
               <img src="./images/shiting_ae74e2f.png" >
-              <input type="text" value="学生姓名 ">
-              <input type="text" value="请输入您的手机号 ">
-              <input type="text" value="推荐人 ">
+              <input type="text" placeholder="学生姓名 ">
+              <input type="text" placeholder="请输入您的手机号 ">
+              <input type="text" placeholder="推荐人 ">
               <div class="button">立即预约</div>
               <img class="img" src="./images/call_78fbc19.png" alt=" ">                   
               </form>

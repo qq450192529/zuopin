@@ -1,4 +1,8 @@
 /*
+以下代码实现微信效果
+*/
+
+/*
 以下代码用来实现轮播图效果
 */
 var img = 0;
@@ -47,6 +51,7 @@ window.onload = function() {
         document.getElementById("upimg").src = "./images/upup.png";
     }
 
+    
     var downImg = document.getElementById("downimg");
     downImg.onmouseover = function() {
         document.getElementById("downimg").src = "./images/down.png";
@@ -54,6 +59,17 @@ window.onload = function() {
     downImg.onmouseout = function() {
         document.getElementById("downimg").src = "./images/downdown.png";
     }
+    
+    
+    var weixin= document.getElementById("weixin");
+    var logoweixin= document.getElementById("logoweixin");
+    weixin.onmouseover = function() {
+        logoweixin.style.zIndex = 10; 
+    }
+    weixin.onmouseout = function() {
+        logoweixin.style.zIndex = -1;
+    }
+    
     
     var fangYi = document.getElementById("fangyiboimg");
     var liYan  = document.getElementById("liyanqiuimg");
